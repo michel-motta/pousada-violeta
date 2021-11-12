@@ -42,7 +42,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 1. Faça um clone :
 
 ```sh
-  $git clone https://github.com/michelmotta-dev/pousadaSecreta.git
+  $git clone https://github.com/msvmotta/pousada-violeta.git
 ```
 
 2. Execute o arquivo "index.html" com o browser e navegue livremente pelo site.
