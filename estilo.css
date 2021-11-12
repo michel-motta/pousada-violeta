@@ -1,0 +1,270 @@
+/* Usando variáveis para as principais cores do projeto */
+:root {
+    --main-color: #a5d6a7;
+    --main-color-lighter: #d7ffd9;
+    --main-color-darker: #75a478;
+    --accent-color: #8e24aa;
+    --main-text-color: #14181A;
+    --main-bg-color: #fff;
+}
+
+/* Reset do CSS para melhor padronização entre os browsers */
+* { 
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+/* Muda a cor de todo o texto do body e coloca a fonte do projeto */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--main-text-color);
+    background-color: var(--main-bg-color);
+}
+
+/* Estilizando o topo da página */
+.topo {
+    width: 100%;
+    height: 60px;
+
+    position: fixed;
+
+    background-color: var(--main-color);
+
+    display: flex;
+    justify-content: center;
+}
+
+.topo > div {
+    width: 1024px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo a {
+    color: #3d3d3d;
+    text-decoration: none;
+    padding: 10px;
+}
+/* Quando o mouse passar por cima do texto da tag <a>, o mesmo ficará em negrito */
+
+.logotipo-topo {
+    font-size: 28px;
+    font-weight: 600;
+    color: #3d3d3d;
+    padding: 10px;
+}
+
+.logotipo-topo span {
+    color:var(--accent-color);
+}
+
+.link-topo {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.link-topo:hover {
+    font-weight: bold;
+}
+
+/* Estilizando o corpo da página */
+
+.intro {
+    background: url(assets/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.intro-box {
+    width: 40%;
+    height: 30%;
+
+    background-color: rgba(215, 255, 217, 0.8);
+    color: var(--accent-color);
+
+    border: 1px solid;
+    border-radius: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-box h1 {
+    font-size: 42px;
+
+    padding-bottom: 20px;
+}
+
+.intro-box p {
+    font-size: 18px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px;
+}
+
+.titulo h2 {
+    font-size: 32px;
+    
+    text-transform: uppercase;
+
+    padding: 20px 20px 30px 20px;
+}
+
+.titulo p { 
+    font-size: 16px;
+    padding: 5px;
+}
+
+.titulo p:last-child {
+    padding-bottom: 10px;
+}
+
+.quartos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-quartos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 2px solid var(--accent-color);
+
+    margin: 10px;
+}
+
+.quartos-img {
+    height: 280px;
+
+    padding: 10px;
+
+    border-radius: 20px;
+}
+
+.quartos a {
+    color: var(--main-text-color);
+
+    text-transform: uppercase;
+    text-decoration: none;
+
+    padding: 5px 5px 10px 5px;
+}
+
+.quartos a:hover {
+    font-weight: bold;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-sobre {
+    width: 40%;
+
+    display: flex;
+    justify-content: space-around;
+
+    margin: 20px;
+
+    padding: 8px;
+
+    border-radius: 10px;
+}
+
+.container-sobre > div {
+    width: 100%;
+
+    padding: 10px 10px 0px 20px;
+}
+
+.container-sobre img {
+    width: 120px;
+    height: 140px;
+}
+
+.container-sobre p {
+    padding: 10px 10px 0px 0px;
+}
+
+
+/* Estilizando o rodapé */
+
+.rodape {
+    color: var(--main-text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--main-color);
+
+    margin-top: 30px;
+}
+
+.container-rodape {
+    width: 80%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-rodape > div {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+}
+
+.container-rodape a {
+    text-decoration: none;
+
+    color: var(--main-text-color);
+}
+
+.container-rodape a:hover {
+    font-weight: bold;
+}
+
+.container-rodape img {
+    width: 30px;
+
+    margin: 5px;
+}
+
+.copyright {
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+
+    border-top: 2px solid var(--accent-color);
+    
+    padding: 10px;
+    margin-top: 10px;
+}
