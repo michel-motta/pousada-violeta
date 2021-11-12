@@ -2,7 +2,7 @@
 <p align="center">Projeto desenvolvido durante meus estudos de HTML e CSS usando funcionalidades dessas linguagens.</p>
 
 <h4 align="center"> 
-	Concluído :heavy_check_mark:
+	Em manutenção ⚠️
 </h4>
 
 ### Índice
