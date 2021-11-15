@@ -1,8 +1,8 @@
-<h1 align="center">Pousada Secreta</h1>
+<h1 align="center">Pousada Violeta</h1>
 <p align="center">Projeto desenvolvido durante meus estudos de HTML e CSS usando funcionalidades dessas linguagens.</p>
 
 <h4 align="center"> 
-	Em manutenção ⚠️
+	Em desenvolvimento ⚠️
 </h4>
 
 ### Índice
