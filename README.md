@@ -17,7 +17,7 @@
 
 ## Sobre
 
-O site da <strong>Pousada Secreta</strong> possui uma página inicial com uma imagem de plano de fundo com introdução, uma listagem dos tipos de quartos disponíveis, um iframe com a localização dela no Google Maps e uma breve descrição de alguns pontos positivos. Além disso, na página de quartos possui imagens dos mesmos, com algumas caracteríscas listadas de cada um. Todo o site possui um menu fixo na parte superior e um rodapé com diversas informações para contato. 
+O site da <strong>Pousada Violeta</strong> possui uma página inicial com uma imagem de plano de fundo com introdução, uma listagem dos tipos de quartos disponíveis, um iframe com a localização dela no Google Maps e uma breve descrição de alguns pontos positivos. Além disso, na página de quartos possui imagens dos mesmos, com algumas caracteríscas listadas de cada um. Todo o site possui um menu fixo na parte superior e um rodapé com diversas informações para contato. 
 
 
 
