@@ -1,5 +1,5 @@
 <h1 align="center">Pousada Violeta</h1>
-<p align="center">Projeto desenvolvido durante meus estudos de HTML e CSS, explorando as funcionalidades dessas linguagens.</p>
+<p align="center">Projeto desenvolvido durante meus estudos de HTML e CSS, explorando as funcionalidades dessas tecnologias.</p>
 
 ### Índice
 
