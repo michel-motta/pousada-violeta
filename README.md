@@ -1,52 +1,45 @@
 <h1 align="center">Pousada Violeta</h1>
-<p align="center">Projeto desenvolvido durante meus estudos de HTML e CSS usando funcionalidades dessas linguagens.</p>
-
-<h4 align="center"> 
-	Em desenvolvimento ⚠️
-</h4>
+<p align="center">Projeto desenvolvido durante meus estudos de HTML e CSS, explorando as funcionalidades dessas linguagens.</p>
 
 ### Índice
 
 - [Sobre](#sobre)
-
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-
 - [Resultado](#resultado)
-
 - [Como Usar](#como-usar)
 
 ## Sobre
 
-O site da <strong>Pousada Violeta</strong> possui uma página inicial com uma imagem de plano de fundo com introdução, uma listagem dos tipos de quartos disponíveis, um iframe com a localização dela no Google Maps e uma breve descrição de alguns pontos positivos. Além disso, na página de quartos possui imagens dos mesmos, com algumas caracteríscas listadas de cada um. Todo o site possui um menu fixo na parte superior e um rodapé com diversas informações para contato. 
-
-
+O site da **Pousada Violeta** é um projeto que apresenta uma página inicial com uma imagem de plano de fundo e uma introdução, uma listagem dos tipos de quartos disponíveis, um iframe com a localização no Google Maps e uma breve descrição dos pontos positivos da pousada. A página de quartos exibe imagens e características de cada um. Todo o site possui um menu fixo na parte superior e um rodapé com informações de contato.
 
 ## Tecnologias Utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- [HTML5](https://html.com)
-- [CSS3](https://html.com/css/)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ## Resultado
 
 ![Vídeo](./assets/pousadaSecreta.gif)
 
-## Como usar
+## Como Usar
 
-- #### **Pré-requisitos**
+### Pré-requisitos
 
-  - É **necessário** possuir um editor de texto de qualquer tipo, porém é recomendado um voltado para programação.
-  - Um browser atualizado, mais recomendado Google Chrome ou Microsoft Edge.
+- Um editor de texto, preferencialmente voltado para programação (ex: Visual Studio Code, Sublime Text).
+- Um navegador atualizado (recomenda-se Google Chrome ou Microsoft Edge).
 
-1. Faça um clone :
+### Passos
 
-```sh
-  $git clone https://github.com/msvmotta/pousada-violeta.git
-```
+1. Faça um clone do repositório:
 
-2. Execute o arquivo "index.html" com o browser e navegue livremente pelo site.
+   ```sh
+   git clone https://github.com/michel-motta/pousada-violeta.git
 
----
+2. Navegue até o diretório do projeto:
 
-Feito com ❤️ por Michel Motta 👋🏽 Entre em contato!
+	```sh
+	cd pousada-violeta
+
+3. Abra o arquivo index.html com o navegador de sua escolha e navegue livremente pelo site.
